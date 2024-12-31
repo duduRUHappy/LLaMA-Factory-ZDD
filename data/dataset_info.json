@@ -5,6 +5,52 @@
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },
+  "alpaca_cot_code_alpaca": {
+    "file_name": "./Alpaca-CoT/CodeAlpaca/code_alpaca.json"
+  },
+  "alpaca_cot_Chain-of-Thought": {
+    "file_name": "./Alpaca-CoT/Chain-of-Thought/CoT_data.json"
+  },
+  "alpaca_cot_GPTeacher_Codegen": {
+    "file_name": "./Alpaca-CoT/GPTeacher/Codegen/codegen-instruct.json"
+  },
+  "mathinstruct_local": {
+    "file_name": "MathInstruct.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "tulu-v2-sft-mixture": {
+    "hf_hub_url": "allenai/tulu-v2-sft-mixture",
+    "ms_hub_url": "AI-ModelScope/tulu-v2-sft-mixture",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "tulu-3-sft-mixture": {
+    "hf_hub_url": "allenai/tulu-3-sft-mixture",
+    "ms_hub_url": "AI-ModelScope/tulu-3-sft-mixture",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
   "alpaca_zh_demo": {
     "file_name": "alpaca_zh_demo.json"
   },
